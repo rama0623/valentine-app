@@ -97,8 +97,7 @@ const handleNo = () => {
 
       <div className="container">
       <img
-      src={`${process.env.PUBLIC_URL}/assets/love-letter.gif`}
-      alt="Valentine"
+      src={`${process.env.PUBLIC_URL}/assets/letter.gif`}
       style={{
       width: 'clamp(220px, 70vw, 360px)',
       height: 'auto',
