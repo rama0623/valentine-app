@@ -10,12 +10,29 @@ export default function Valentine() {
   const MAX_NO_CLICKS = 5;
 
 const noResponses = [
-  { text: "Last chance 👀", img: "/assets/kermit-frog.gif" },
-  { text: "Really", img: "/assets/side-eye-dog.gif" },
-  { text: "I think you read the question wrong", img: "/assets/minion-memes.gif" },
-  { text: "Let's do this properly. Will you be my valentine?", img: "/assets/waah-waa.gif" },
-  { text: "Please give me a chance ♫⋆｡♪ ₊˚♬ ﾟ. can I be your valentine?", img: "/assets/gumball-sing-gumball-singing.gif" },
+  {
+    text: "Last chance 👀",
+    img: `${process.env.PUBLIC_URL}/assets/kermit-frog.gif`,
+  },
+  {
+    text: "Really",
+    img: `${process.env.PUBLIC_URL}/assets/side-eye-dog.gif`,
+  },
+  {
+    text: "I think you read the question wrong",
+    img: `${process.env.PUBLIC_URL}/assets/minion.gif`,
+  },
+  {
+    text: "Let's do this properly. Will you be my valentine?",
+    img: `${process.env.PUBLIC_URL}/assets/waah-waa.gif`,
+  },
+  {
+    text: "Please give me a chance ♫⋆｡♪ ₊˚♬ ﾟ. can I be your valentine?",
+    img: `${process.env.PUBLIC_URL}/assets/gumball.gif`,
+  },
 ];
+
+
 
 
   const createConfetti = () => {
